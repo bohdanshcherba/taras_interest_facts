@@ -1,0 +1,68 @@
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section {
+    width: 80%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+section p {
+    text-align: left;
+    width:50%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.gallery img {
+    width: 300px;
+    margin:10px;
+}
+
+footer {
+    height: 100px;
+    background-color: red;
+    margin-top: 120px;
+}
+
+body {
+    margin: 0;
+    background-color: #d9d9d9;
+}
+
+.container {
+    display: flex;
+
+}
+
+.container img {
+    width: 200px;
+    margin-left: 55px;
+}
+
+.logo {
+    height: 250px!important;
+}
