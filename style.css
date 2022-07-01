@@ -44,8 +44,11 @@ section p {
 
 footer {
     height: 100px;
-    background-color: red;
     margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 body {
@@ -63,6 +66,9 @@ body {
     margin-left: 55px;
 }
 
+.logo {
+    height: 250px!important;
+}
 .logo {
     height: 250px!important;
 }
